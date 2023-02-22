@@ -1,0 +1,17 @@
+@prefix ns1: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+
+<https://compass.amagi.tv/gms/entity/A8kpahpfuE3VkMCauAPFGMP> a ns1:Episode ;
+    ns1:hasIdentifier [ a ns1:Identifier ;
+            ns1:hasIdentifierType "urn:amagi:publisher:assetid" ;
+            ns1:identifierValue "episode_asset_1" ] ;
+    ns1:hasKeyword "Mountains" ;
+    ns1:hasPublisher [ ns1:agentId "007" ] ;
+    ns1:isEpisodeOfSeries <https://compass.amagi.tv/gms/entity/AChK7JePDv5zi6vQdLxTYN3> ;
+    ns1:title "K2: The Impossible Descent" .
+
+<https://compass.amagi.tv/gms/entity/AChK7JePDv5zi6vQdLxTYN3> a ns1:Series ;
+    ns1:dateBroadcast "2023" ;
+    ns1:hasSeason [ a ns1:Season ;
+            ns1:seasonNumber "1" ] ;
+    ns1:isSeriesOf "HBO" ;
+    ns1:title "Climbing Mountains" .

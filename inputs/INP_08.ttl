@@ -1,0 +1,8 @@
+@prefix ns1: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+
+[] a ns1:Feature ;
+    ns1:hasKeyword "Mountains and Bigger mountains" ;
+    ns1:hasIdentifier [ a ns1:Identifier ;
+            ns1:hasIdentifierType "urn:amagi:publisher:assetid" ;
+            ns1:identifierValue "asset_2" ] ;
+    ns1:title "K2: The Impossible Descent (PART-2)" .

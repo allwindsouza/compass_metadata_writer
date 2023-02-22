@@ -1,0 +1,12 @@
+@prefix ns1: <http://www.ebu.ch/metadata/ontologies/ebucore/ebucore#> .
+
+<https://compass.amagi.tv/gms/history/entity/A8kpahpfuE3VkMCauAPFGMP6> a ns1:Episode ;
+    ns1:hasIdentifier [ a ns1:Identifier ;
+            ns1:hasIdentifierType "urn:amagi:publisher:assetid" ;
+            ns1:identifierValue "episode_asset_1" ] ;
+    ns1:hasKeyword "Mountains" ;
+    ns1:hasPublisher [ ns1:agentId "007" ] ;
+    ns1:hasRelatedAsset <https://compass.amagi.tv/gms/entity/A8kpahpfuE3VkMCauAPFGMP> ;
+    ns1:isEpisodeOfSeries <https://compass.amagi.tv/gms/entity/AChK7JePDv5zi6vQdLxTYN3> ;
+    ns1:title "K2: The Impossible Descent" .
+
