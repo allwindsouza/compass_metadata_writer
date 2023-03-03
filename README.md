@@ -30,3 +30,16 @@ Following are the test cases for CMW
     
 9.  input: Giving edit of feature 1: Contains an edit to the RDF data for feature 1.	
 	Exp: old feature 1 data should be written into history graph and deleted from amagi. New triples should be written into amagi.
+
+TODO:
+
+1. Empty TTL file
+2. Very Large ttl file
+3. Asset without "a ns1:Episode or ns1:Feature"
+4. Episode Asset without any Series Triples
+5. Asset without publisher ID
+6. Invalid ttl file 
+7. Episode asset with already containing ns1:isEpisodeOfSeries triple (single triple)
+7. Episode asset with two separate series triples (ns1:isEpisodeOfSeries )
+8. Feature asset with contains ns1:isEpisodeOfSeries
+9. 
